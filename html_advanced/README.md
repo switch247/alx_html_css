@@ -1,12 +1,12 @@
 ![Screenshot](SchoolPage@2x.png)   
 
 this project is the design for a school page 
-implemented using pure html
+implemented using pure html.
 it contains several parts such as:
-header
-main part
+header,
+main part,
 testimonials
-tutorials
+tutorials,
 faq
 and footer
 
