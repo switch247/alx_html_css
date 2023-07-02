@@ -1,4 +1,4 @@
-![plot](./School Page@2x.png)   
+![Screenshot](School Page@2x.png)   
 
 this project is the design for a school page 
 implemented using pure html
