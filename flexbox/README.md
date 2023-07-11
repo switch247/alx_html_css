@@ -13,3 +13,6 @@ task 5-> doesn't recognize changes to the html file
 
 task 6-> no errors
 task 7-> no errors
+
+
+bs4 html parser must be broken 
