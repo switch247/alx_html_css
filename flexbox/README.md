@@ -5,7 +5,7 @@ task 1 -> doesn't recognize changes to the html file
 
 task 2-> no errors
 
-task 3-> checker 3 fails but 4 passes though you cant do 4 with out completing 3 first , and doesn't recognize changes to the html file
+task 3->and doesn't recognize changes to the html file
 
 task 4-> no errors
 
