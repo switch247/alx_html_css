@@ -62,11 +62,11 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
-    --header-logo-link-display: inline-block;
-    --header-logo-link-position: absolute;
-    --header-logo-link-top: -1rem;
-    --header-logo-link-left: 0;
+    /* --header-logo-position: relative; */
+    /* --header-logo-link-display: inline-block; */
+    /* --header-logo-link-position: absolute; */
+    /* --header-logo-link-top: -1rem; */
+    /* --header-logo-link-left: 0; */
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -184,9 +184,11 @@
     display:flex;
   }
   ul.row {
-    margin: 0;
+    /* margin: 0; */
+    margin:-1rem;
     padding: 0;
     list-style: none;
+
   }
   
   /* .row::after {
@@ -197,23 +199,26 @@
   
   [class*='col-'] {
     /* float: left; */
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    margin: 1rem;
   }
   
   .col-1-3 {
-    width: 33.33%;
+    /* width: 33.33%; */
+    width:calc((100% / 3) - 2rem);
   }
   
   .col-1-2 {
-    width: 50%;
+    /* width: 50%; */
+    width: calc((100%/2) - 2rem);
   }
   
   /* Navbar
       ============================= */
   
-  .navbar-menu {
+  /* .navbar-menu {
     float: right;
-  }
+  } */
   
   .nav {
     margin: 0;
@@ -268,7 +273,7 @@
          background: transparent;
   }
   
-  .header-logo {
+  /* .header-logo {
     position: var(--header-logo-position);
   }
   
@@ -277,8 +282,13 @@
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
+  } */
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+
   }
-  
+
   /* Footer
       ============================= */
   
@@ -385,6 +395,15 @@
 /* .section-latest-news */
 /* .section-testimonial{} */
 /* .section-contact{} */
+
+/* Section Latest news ============================= */
+.section-latest-news .row{
+  flex-direction: row-reverse;
+}
+ /* Section SERVICES ============================= */
+.section-services .row{
+  flex-wrap: wrap;
+}
 
   /*** 4. CARD ***/
   
