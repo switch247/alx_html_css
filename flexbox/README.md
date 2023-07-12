@@ -5,7 +5,7 @@ task 1 -> no errors
 
 task 2-> no errors
 
-task 3->and doesn't recognize changes to the html file
+task 3->no errors
 
 task 4-> no errors
 
