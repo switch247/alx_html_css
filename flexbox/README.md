@@ -1,7 +1,7 @@
 flex box
 task 0 -> no errors
 
-task 1 -> doesn't recognize changes to the html file
+task 1 -> no errors
 
 task 2-> no errors
 
